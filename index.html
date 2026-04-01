@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CGN Framework: Erosion of Dollar Hegemony</title>
+  
+  <!-- Fonts: Inter and Playfair Display for quotes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+
+  <!-- MathJax for LaTeX Rendering -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <!-- Dynamic Background -->
+  <div class="bg-gradient bg-gradient-1"></div>
+  <div class="bg-gradient bg-gradient-2"></div>
+  <div class="bg-gradient bg-gradient-3"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar glass">
+    <div class="logo">
+      <i class="ph-fill ph-globe-hemisphere-east text-gold"></i>
+      <span>CGN Framework</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#hero">Overview</a></li>
+      <li><a href="#epigraph">Philosophy</a></li>
+      <li><a href="#pillars">3 Pillars</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#case-study">LPG Case Study</a></li>
+      <li><a href="CGN_FINAL_BUILD.pdf" target="_blank" class="nav-cta text-gold"><i class="ph ph-file-pdf"></i> Paper</a></li>
+    </ul>
+  </nav>
+
+  <!-- Quick Access Sidebar -->
+  <div class="quick-access glass">
+    <a href="CGN_FINAL_BUILD.pdf" target="_blank" title="View Full Paper (PDF)"><i class="ph-fill ph-file-pdf"></i></a>
+    <a href="cgn_master_data.xlsx" download title="Download Master Dataset (XLSX)"><i class="ph-fill ph-table"></i></a>
+    <div class="q-line"></div>
+    <span class="q-text">ASSETS</span>
+  </div>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero section">
+    <div class="hero-content fade-in">
+      <div class="badge glass-badge text-gold mb-4"><i class="ph-fill ph-star"></i> WORKING PAPER v2.1</div>
+      <h1 class="title">Currency Network Dynamics &amp;<br>
+      <span class="text-blue-gradient">The Erosion of Dollar Hegemony</span></h1>
+      <p class="description">
+        De-dollarization and the Future of Global Reserve Currencies. A unified theoretical and empirical architecture explaining why the US Dollar is losing its dominance through non-linear network effects, rather than sheer GDP decline.
+      </p>
+
+      <div class="hero-actions mb-4">
+        <a href="CGN_FINAL_BUILD.pdf" target="_blank" class="btn btn-primary glass">
+          <i class="ph ph-file-pdf"></i> View Full Paper
+        </a>
+        <a href="cgn_master_data.xlsx" download class="btn btn-secondary glass">
+          <i class="ph ph-table"></i> Explore Master Dataset
+        </a>
+      </div>
+      
+      <div class="hero-stats">
+        <div class="stat-box glass-stat">
+          <div class="stat-icon bg-blue-light"><i class="ph-fill ph-chart-scatter text-blue"></i></div>
+          <div class="stat-text">
+            <span class="stat-lbl">Panel Size</span>
+            <span class="stat-val">156 Countries</span>
+          </div>
+        </div>
+        <div class="stat-box glass-stat">
+          <div class="stat-icon bg-gold-light"><i class="ph-fill ph-calendar text-gold"></i></div>
+          <div class="stat-text">
+            <span class="stat-lbl">Timeframe</span>
+            <span class="stat-val">25 Years (1999-2024)</span>
+          </div>
+        </div>
+        <div class="stat-box glass-stat">
+          <div class="stat-icon bg-red-light"><i class="ph-fill ph-target text-red"></i></div>
+          <div class="stat-text">
+            <span class="stat-lbl">Structural Node</span>
+            <span class="stat-val">Tipping Point: τ = 0.42</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Epigraph / Philosophical Quotes Section -->
+  <section id="epigraph" class="section epigraph-section">
+    <div class="epigraph-grid">
+      
+      <div class="quote-card glass slide-up">
+        <div class="quote-header">
+          <div class="quote-source">Bhagavad Gita — Chapter 4, Verse 7</div>
+          <i class="ph-fill ph-quotes text-gold quote-icon"></i>
+        </div>
+        <div class="quote-sanskrit">
+          "yadā yadā hi dharmasya glānir bhavati bhārata,<br>
+          abhyutthānam adharmasya tadātmānaṁ sṛjāmy aham."
+        </div>
+        <blockquote class="quote-english">
+          "Whenever and wherever there is a decline in righteousness, O descendant of Bharata, and a rise of unrighteousness—at that time I manifest Myself on earth."
+        </blockquote>
+      </div>
+
+      <div class="quote-card glass slide-up delay-1">
+        <div class="quote-header">
+          <div class="quote-source">The Holy Bible — Ecclesiastes 1:4</div>
+          <i class="ph-fill ph-quotes text-blue quote-icon"></i>
+        </div>
+        <blockquote class="quote-english quote-large mt-4">
+          "One generation passeth away, and another generation cometh: but the earth abideth for ever."
+        </blockquote>
+      </div>
+
+    </div>
+    
+    <div class="quote-synthesis fade-in delay-2">
+      <p>The dollar, like every dominant order before it, is subject to the eternal law of impermanence. This paper asks not <em>whether</em> the transition comes, but <em>when the network reaches its tipping point.</em></p>
+    </div>
+  </section>
+
+  <!-- 3 Pillars Section -->
+  <section id="pillars" class="section pillars-section">
+    <div class="section-header fade-in">
+      <h2 class="section-title">The Three Theoretical Pillars</h2>
+      <div class="h-line"></div>
+    </div>
+    
+    <div class="cards-container">
+      <div class="pillar-card glass slide-up">
+        <div class="card-icon-container bg-blue-light">
+          <i class="ph-fill ph-git-branch text-blue"></i>
+        </div>
+        <h3>1. Monetary Triadic Closure</h3>
+        <div class="pillar-content">
+          <p>The probability that two countries adopt a common settlement currency rises non-linearly as the density of shared intermediary partners using that currency increases. A core node defecting triggers a cascade.</p>
+          <div class="pillar-detail glass-inset">
+            <div class="math-block">
+              <strong>Network Closure Equation:</strong>
+              $$\mathcal{P}_{ik} = 1 - \prod_{j \in \mathcal{N}} (1 - \alpha e_{ij} e_{jk})$$
+            </div>
+            <div class="intuition mt-2">
+              <strong>Intuition:</strong> This probability $\mathcal{P}_{ik}$ shows that as more of your trading partners ($j$) adopt a specific currency, your own pressure to switch rises exponentially. It's the "Peer Pressure" of the global financial system.
+            </div>
+          </div>
+        </div>
+        <button class="btn-text learn-more">Learn More <i class="ph ph-caret-down"></i></button>
+      </div>
+
+      <div class="pillar-card glass slide-up delay-1">
+        <div class="card-icon-container bg-gold-light">
+          <i class="ph ph-users-three text-gold"></i>
+        </div>
+        <h3>2. DeGroot-Nash Belief Dynamics</h3>
+        <div class="pillar-content">
+          <p>A country's confidence in the USD is formed through non-Bayesian social learning from its trade partners. We identify a structural tipping point <strong>(τ = 0.42)</strong> beyond which a coordinated block causes network defection.</p>
+          <div class="pillar-detail glass-inset">
+            <div class="math-block">
+              <strong>Structural Tipping Condition:</strong>
+              $$\rho(\mathbf{W}_-) > \frac{\lambda}{1-\lambda}$$
+            </div>
+            <div class="intuition mt-2">
+              <strong>Intuition:</strong> When the "centrality" or influence of an opposing currency bloc (like BRICS+) reaches a critical mass (the spectral radius $\rho$), the network hits a point of no return where de-dollarization becomes the dominant strategy.
+            </div>
+          </div>
+        </div>
+        <button class="btn-text learn-more">Learn More <i class="ph ph-caret-down"></i></button>
+      </div>
+
+      <div class="pillar-card glass slide-up delay-2">
+        <div class="card-icon-container bg-red-light">
+          <i class="ph ph-planet text-red"></i>
+        </div>
+        <h3>3. Centrality-Adjusted Gravity</h3>
+        <div class="pillar-content">
+          <p>While standard macroeconomic gravity models rely heavily on GDP and distance, we embed GNN-extracted network centrality. Structural centrality dictates reserve currency share exponentially, outpacing static GDP factors.</p>
+          <div class="pillar-detail glass-inset">
+            <div class="math-block">
+              <strong>The Centrality Gravity Term:</strong>
+              $$T_{ij,t} \propto \frac{M_i M_j}{D_{ij}} \cdot \exp(\theta \cdot C_i \cdot C_j)$$
+            </div>
+            <div class="intuition mt-2">
+              <strong>Intuition:</strong> Traditional models look at size ($M$) and distance ($D$). Our model adds **Centrality** ($C$). This reveals that even if a country's GDP ($M$) is huge, losing network connections causes its currency share to collapse exponentially.
+            </div>
+          </div>
+        </div>
+        <button class="btn-text learn-more">Learn More <i class="ph ph-caret-down"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Empirical Results & Data Visualizations -->
+  <section id="results" class="section results-section">
+    <div class="section-header fade-in">
+      <h2 class="section-title">Empirical Results & Trajectories</h2>
+      <div class="h-line"></div>
+    </div>
+
+    <div class="results-grid">
+      <!-- Dashboard Stats -->
+      <div class="dashboard-stats fade-in">
+        <div class="stat-item glass glow-blue">
+          <div class="stat-value text-blue">0.934</div>
+          <div class="stat-label">Structural R-squared</div>
+        </div>
+        <div class="stat-item glass glow-gold">
+          <div class="stat-value text-gold">0.891</div>
+          <div class="stat-label">GNN Classification AUC</div>
+        </div>
+        <div class="stat-item glass glow-red">
+          <div class="stat-value text-red">7.0%</div>
+          <div class="stat-label">USD share drop per 1-SD centrality loss</div>
+        </div>
+      </div>
+      
+      <!-- Interactive Charts -->
+      <div class="charts-container fade-in delay-1">
+        <div class="chart-wrapper glass">
+          <div class="chart-header">
+            <h4 class="chart-title">Global USD Reserve Share Decline (1999-2024)</h4>
+            <span class="chart-badge bg-gold-light text-gold">Historic Trend</span>
+          </div>
+          <div class="canvas-container">
+            <canvas id="usdShareChart"></canvas>
+          </div>
+        </div>
+        <div class="chart-wrapper glass">
+          <div class="chart-header">
+            <h4 class="chart-title">The Tipping Point (Interactive Simulation)</h4>
+            <span class="chart-badge bg-red-light text-red">Live Model</span>
+          </div>
+          <div class="canvas-container">
+            <canvas id="tippingPointChart"></canvas>
+          </div>
+          <div class="chart-controls mt-4">
+            <div class="control-label">
+              <span>Network Fragmentation Scenario</span>
+              <span id="simulatorValue" class="text-red">Centrality: 1.00</span>
+            </div>
+            <input type="range" id="centralitySlider" min="0.05" max="1.00" step="0.05" value="1.00" class="glass-slider">
+            <p class="small text-gray opacity-70 mt-2">Simulate node removal to observe exponential currency share decay.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Real World Case Study -->
+  <section id="case-study" class="section case-study-section">
+    <div class="section-header fade-in">
+      <h2 class="section-title">Case Study: Post-Sanctions LPG Realignment</h2>
+      <div class="h-line"></div>
+    </div>
+    
+    <div class="case-study-content glass slide-up">
+      <div class="cs-visual">
+        <div class="cs-circle cs-circle-main">
+          <i class="ph-fill ph-gas-can text-red"></i>
+        </div>
+        <div class="cs-circle cs-circle-orbit cs-orbit-1"></div>
+        <div class="cs-circle cs-circle-orbit cs-orbit-2"></div>
+      </div>
+      
+      <div class="cs-text">
+        <h3 class="mb-2">The 2022 Post-Sanctions Energy Shock</h3>
+        <p class="mb-4 text-gray">The energy shortages and supply chain realignments that followed the 2022 geopolitical shock—particularly concerning Liquefied Petroleum Gas (LPG)—provide empirical validation of the CGN framework.</p>
+        
+        <div class="cs-list">
+          <div class="cs-list-item">
+            <div class="cs-bullet bg-red-light text-red"><i class="ph-bold ph-link-break"></i></div>
+            <div class="cs-item-text">
+              <strong>The Triad is Broken:</strong> Russia forced USD invoicing to zero for energy exports. India and China shifted to alternate currencies, severing the shared USD intermediary loop.
+            </div>
+          </div>
+          <div class="cs-list-item">
+            <div class="cs-bullet bg-gold-light text-gold"><i class="ph-bold ph-trend-down"></i></div>
+            <div class="cs-item-text">
+              <strong>Systemic Network Evolution:</strong> Forging non-dollar settlement infrastructure expanded the DeGroot influence, pushing the BRICS+ network to the <strong>τ = 0.42</strong> tipping point.
+            </div>
+          </div>
+          <div class="cs-list-item">
+            <div class="cs-bullet bg-blue-light text-blue"><i class="ph-bold ph-arrows-out-line-vertical"></i></div>
+            <div class="cs-item-text">
+              <strong>Centrality Eclipse:</strong> Bypassing Western clearinghouses caused a sharp decline in the USD's structural network centrality ($C_{i,t}^{\text{USD}}$), driving an exponential decay that eclipses GDP mass effects.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content glass">
+      <h2>AECIIFT</h2>
+      <p class="mt-2 text-gray">Ahan Mazumdar & Aaron Alex Luke</p>
+      <p class="small text-gray opacity-70">MA Economics | Indian Institute of Foreign Trade, Kolkata</p>
+      <div class="footer-line mb-0"></div>
+    </div>
+  </footer>
+
+  <!-- External Script -->
+  <script src="app.js"></script>
+</body>
+</html>
